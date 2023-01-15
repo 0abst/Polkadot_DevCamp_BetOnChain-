@@ -20,19 +20,19 @@ Of course, inputs from external sources are needed in order to have our betting 
 
 The main challenge we have had was about the obsolescence of the documentations, i.e. the fact that documentation was not longer up to date at the time of the project. This is valid for:
 
-  * The data providers. We focused on Chainlink, given that it is the largest data provider on Ethereum. The releases Chainlink has done during the last years make the tutorials about Chainlink Polkadot no longer so relevant - only the general structure can be found. For instance, the jobs 
+  * The data providers. We focused on Chainlink, given that it is the largest data provider on Ethereum. The releases Chainlink has done during the last years make the tutorials about Chainlink Polkadot no longer so relevant - only the general structure can be found
 
   * Dependencies: When we want to test code from non-official tutorials to be more familiar with Substrate, libraries are associated to such code. The libraries are sometimes no longer maintained and, as a result, the code cannot be tested easily
 
 **What we have done**
 
- * We have focused on defining the base logic: We provide the structure on Substrate to bet on certain matches as well as determine what happens when the match is finished as well
+ * We have focused on defining the base logic: We provide the structure on Substrate to bet on certain matches as well as determine what happens when the match is finished
  
  	* In order to do this, the pallets BetonEvents and Beton have been created
 	
  	* A treasury pallet has also been added - in order to act as a kind of pool which would automatically retrocede the payoffs for the betting platform
  
- * We are working on the connection between Chainlink and Substrate. We have Chainlink nodes running on postgresql databases, we have set up the internal initiators, built the Aggregated Price Feed External Adapter, as well as bridged the substrate blockchain with the Chainlink node, but we do not properly get the price feed from the Substrate blockchain. This is under progress
+ * We are working on the connection between Chainlink and Substrate. We have Chainlink nodes running on postgresql databases, we have set up the internal initiators, built the Aggregated Price Feed External Adapter, as well as bridged the substrate blockchain with the Chainlink node, but we do not properly get the price feed from the Substrate blockchain
  
 **Next steps**
  
