@@ -1,4 +1,4 @@
-# Delphi - Betting on Sport/Esport results
+# BetOnChain - Betting on Sport/Esport results
 
 **Introduction**
 
