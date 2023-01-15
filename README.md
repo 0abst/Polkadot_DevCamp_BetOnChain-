@@ -30,7 +30,7 @@ The main challenge we have had was about the obsolescence of the documentations,
  
  	* In order to do this, the pallets BetonEvents and Beton have been created
 	
- 	* A treasury pallet has also been added - in order to act as a kind of pool which would automatically retrocede the payoffs for the betting platform
+ 	* A treasury pallet has also been added - in order to act as a kind of pool which would automatically retrocede the payoffs
  
  * We are working on the connection between Chainlink and Substrate. We have Chainlink nodes running on postgresql databases, we have set up the internal initiators, built the Aggregated Price Feed External Adapter, as well as bridged the substrate blockchain with the Chainlink node, but we do not properly get the price feed from the Substrate blockchain
  
